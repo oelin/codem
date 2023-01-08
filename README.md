@@ -4,7 +4,7 @@
 
 ## Introduction
 
-CodeM is a simple code-in-markdown compiler written in Python, and configurable using YAML. Code-in-markdown is a documentation style where source code and documentation are written side-by-side in markdown (`.md`) files. This format closely resembles notebooks commonly used in scientific computing contexts. CodeM works by stripping all non-source-code sections from a markdown file, leaving interpretable code. For instance, consider the following code-in-markdown source file:
+CodeM is a simple code-in-markdown compiler written in Python, and configurable using YAML. Code-in-markdown is a documentation style where source code and documentation are written side-by-side in markdown (`.md`) files. This format closely resembles notebooks commonly used in scientific computing contexts. CodeM works by stripping all non-source-code sections from a markdown files, leaving only interpretable code. For instance, consider the following code-in-markdown file:
 
 <pre>
 # The `add()` function
